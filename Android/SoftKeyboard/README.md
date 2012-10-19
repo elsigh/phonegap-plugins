@@ -2,8 +2,7 @@
 
 ## Usage ##
 
-    plugins.SoftKeyBoard.show(function () {
-        // success
-    },function () {
-       // fail
-    });
+    
+    cordova.require('cordova/plugin/softkeyboard').show();
+
+    cordova.require('cordova/plugin/softkeyboard').hide();
